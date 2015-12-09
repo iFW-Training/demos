@@ -3,13 +3,12 @@
         "config.lua"
     ],
     "LuaDependencies": [
-        "config",
         "demoJSON"
     ],
     "OtherDependencies": [
         "demo.vmd"
     ],
-    "timestamp": "1449625689",
+    "timestamp": "1449631963",
     "version_info": {
         "build": 0,
         "major": 6,

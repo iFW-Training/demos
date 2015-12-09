@@ -20,6 +20,7 @@ function main(Data)
       trace (MsgOut)
       
       -- Start mapping values to JSON message
+      MsgOut.facility = MsgIn.MSH[3][1]:nodeValue()
       MsgOut.patient.firstname = MsgIn.PID[5][1][2]:nodeValue()
       MsgOut.patient.lastname = MsgIn.PID[5][1][1][1]:nodeValue()
       MsgOut.patient.gender = MsgIn.PID[8]:nodeValue()

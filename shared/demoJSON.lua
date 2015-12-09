@@ -6,5 +6,6 @@ demoJSON = [[{"patient": {
 "race":'',
 "dob":'',
 "zip":''
-}
+},
+"facility":''
 }]]

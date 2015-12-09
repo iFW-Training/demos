@@ -7,8 +7,8 @@
    use_message_filter="true">
    <to_mapper
       guid="Demo_3_-_Outbound_A-To-ztlEvlJ7oreASP"
-      commit_id="0dec5d5c0dd6d81b704a756047ea34aad554ca56"
-      commit_comment="Logs response.">
+      commit_id="f7f1113a091965b2b7e557bac66ebabe7b7ffd8d"
+      commit_comment="Dynamically adds facility to web request URL.">
       <dequeue_list>
          <dequeue
             source_guid="00000000000000000000000000000000"
@@ -25,7 +25,7 @@
       error_handling="0"
       use_translator_filter="true"
       translator_guid="Demo_3_-_Outbound_A-Filter-UEhQrKHaf1j9z1"
-      translator_commit_id="172db02581af5d9cfcac7769ad32b3c3a6c8429f"
-      translator_commit_comment="Created basic filtering and mapping scheme.">
+      translator_commit_id="7cefb8150351235d48d0fd36f893f99029e83075"
+      translator_commit_comment="Adds facility to JSON.">
    </message_filter>
 </channel>
