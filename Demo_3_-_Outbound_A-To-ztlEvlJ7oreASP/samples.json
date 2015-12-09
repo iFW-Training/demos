@@ -1,0 +1,8 @@
+{
+    "Samples": [
+        {
+            "Message": "{\r   \"patient\": {\r      \"firstname\": \"Mary\",\r      \"race\": \"white\",\r      \"zip\": \"66666\",\r      \"dob\": \"1971-01-06\",\r      \"gender\": \"F\",\r      \"lastname\": \"Smith\",\r      \"mrn\": \"232442\"\r   }\r}",
+            "Name": "Sample message 1"
+        }
+    ]
+}

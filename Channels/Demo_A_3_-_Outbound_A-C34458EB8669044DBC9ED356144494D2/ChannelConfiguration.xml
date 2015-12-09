@@ -1,0 +1,31 @@
+<channel
+   name="Demo A: 3 - Outbound A"
+   guid="C34458EB8669044DBC9ED356144494D2"
+   description="Receive ADT messages and process only certain messages for specific destination."
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="true">
+   <to_mapper
+      guid="Demo_3_-_Outbound_A-To-ztlEvlJ7oreASP"
+      commit_id="0dec5d5c0dd6d81b704a756047ea34aad554ca56"
+      commit_comment="Logs response.">
+      <dequeue_list>
+         <dequeue
+            source_guid="00000000000000000000000000000000"
+            dequeue_guid="B6C40DE6B2D474CEAE1CEE57BB453C79"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_channel/>
+   <message_filter
+      filter_after_logging="true"
+      log_pre_post_filter_message="true"
+      filter_vmd_path=""
+      transformation_mode="0"
+      scripted_transformation_configuration_name="default"
+      error_handling="0"
+      use_translator_filter="true"
+      translator_guid="Demo_3_-_Outbound_A-Filter-UEhQrKHaf1j9z1"
+      translator_commit_id="172db02581af5d9cfcac7769ad32b3c3a6c8429f"
+      translator_commit_comment="Created basic filtering and mapping scheme.">
+   </message_filter>
+</channel>

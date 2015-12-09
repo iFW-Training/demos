@@ -1,0 +1,18 @@
+{
+    "LocalDependencies": [
+        "config.lua"
+    ],
+    "LuaDependencies": [
+        "config",
+        "demoJSON"
+    ],
+    "OtherDependencies": [
+        "demo.vmd"
+    ],
+    "timestamp": "1449625689",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}

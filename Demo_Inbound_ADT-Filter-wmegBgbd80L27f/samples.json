@@ -1,0 +1,24 @@
+{
+    "Samples": [
+        {
+            "Message": "MSH|^~\\&|AcmeMed|Lab|Main HIS|St. Micheals|20120123050641||ADT^A07|1656675660033ACC7EA4D3BED0AC9C596C0740D1305327AF42FF2FBFFC9A5174|P|2.6|\rEVN||20141006105621||||20070821114717|\rPID|||6374929||Muir^John||19621017|M||Martian|936 Main Rd.^^LA^CA^66061|||||||37-12-232|701-131-152|\rNK1|1|Muir^John|Sibling|\rNK1|2|Garland^Sabrina|Sibling|\rPV1||||||||^Garland^Fred^F|||||||||||9159232|||||||||||||||||||||||||20040906083113|\rOBX|||WT^WEIGHT||31|pounds|\rOBX|||HT^HEIGHT||97|cm|\r\n",
+            "Name": ""
+        },
+        {
+            "Message": "MSH|^~\\&|AcmeMed|Lab|Main HIS|St. Micheals|20110217092440||ADT^A08|205667569A032C51C890F913108379CE9137072EBCE565D2C383F5F16ABDBF01|P|2.6|\rEVN||20060916110512||||20050408014636|\rPID|||9039222||WHITE^John||19931014|M||Mixed|492 Yonge St.^^Toronto^ON^96552|||||||19-802-17|689-799-32|\rNK1|1|Smith^Jim|Grandchild|\rPV1||||||||^WHITE^Fred^F|||||||||||3550983|||||||||||||||||||||||||20081024092319|\rOBX|||WT^WEIGHT||85|pounds|\rOBX|||HT^HEIGHT||114|cm|\r\n",
+            "Name": ""
+        },
+        {
+            "Message": "MSH|^~\\&|AcmeMed|E\\T\\R|Main HIS|St. Micheals|20090201031535||ADT^A07|2A566756D103FF9FAE0F360AF432924C5FC7775D94AA96902CB6DE4E67F2D43B|P|2.6|\rEVN||20071101045453||||20040101112125|\rPID|||2656547||Garland^Tracy||19430611|F||Martian|141 Delphi Cres.^^ST. LOUIS^MO^43709|||||||29-101-663|410-482-698|\rNK1|1|Garland^Fred|Second Cousin|\rNK1|2|Adams^Tracy|Sibling|\rNK1|3|Smith^Tracy|Sibling|\rPV1||||||||^Meade^Fred^F|||||||||||5097775|||||||||||||||||||||||||20030824082948|\rOBX|||WT^WEIGHT||32|pounds|\rOBX|||HT^HEIGHT||21|cm|\r\n",
+            "Name": ""
+        },
+        {
+            "Message": "MSH|^~\\&|CowZing|E\\T\\R|Main HIS|St. Micheals|20010806010118||ADT^A04|355667560500DB6C0726C24331CF559CBE167269FE9C1E2F71D05329C16D753A|P|2.6|\rEVN||20070108114052||||20040721033059|\rPID|||7180740||Smith^Sabrina||19010712|F||EU|112 Miller Lane^^LA^CA^26835|||||||87-766-539|819-686-566|\rNK1|1|Adams^Mary|Grandchild|\rPV1||||||||^Adams^Jim^F|||||||||||2353849|||||||||||||||||||||||||20070709052316|\rOBX|||WT^WEIGHT||37|pounds|\rOBX|||HT^HEIGHT||34|cm|\r\n",
+            "Name": ""
+        },
+        {
+            "Message": "MSH|^~\\&|CowZing|Lab|Main HIS|St. Micheals|20010918031512||ADT^A03|3F5667561900F05BF7BBE5EE695760B26E954D89EA45BB28C0A6F705A68BCF08|P|2.6|\rEVN||20010512060636||||20140622085827|\rPID|||8954810||Adams^Jim||19230807|M||Martian|754 Delphi Cres.^^Toronto^ON^17581|||||||23-478-790|523-890-379|\rNK1|1|Fitzgerald^Jim|Second Cousin|\rNK1|2|Smith^Sabrina|Parent|\rNK1|3|Garland^John|Parent|\rNK1|4|Muir^Jim|Parent|\rNK1|5|Smith^Fred|Second Cousin|\rPV1||||||||^Garland^Jim^F|||||||||||5005898|||||||||||||||||||||||||20120922095050|\rOBX|||WT^WEIGHT||31|pounds|\rOBX|||HT^HEIGHT||88|cm|\r\n",
+            "Name": ""
+        }
+    ]
+}
