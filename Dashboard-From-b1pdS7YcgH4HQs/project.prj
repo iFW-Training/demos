@@ -1,0 +1,16 @@
+{
+    "LocalDependencies": [],
+    "LuaDependencies": [
+        "iguanaServer",
+        "node"
+    ],
+    "OtherDependencies": [
+        "ran/demo.vmd"
+    ],
+    "timestamp": "1449691483",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}

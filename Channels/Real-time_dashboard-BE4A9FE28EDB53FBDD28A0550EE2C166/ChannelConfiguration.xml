@@ -1,0 +1,16 @@
+<channel
+   name="Real-time dashboard"
+   guid="BE4A9FE28EDB53FBDD28A0550EE2C166"
+   description="This application queries Iguana&apos;s logs, collates data and pushes results to Ducksboard, a web-based BI visualization tool."
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_channel>
+   </to_channel>
+   <from_mapper
+      guid="Dashboard-From-b1pdS7YcgH4HQs"
+      commit_id="848b55d226c57db57731bf4feafb5102e0a79738"
+      commit_comment="Imported Channel."
+      poll_time="10000">
+   </from_mapper>
+</channel>
