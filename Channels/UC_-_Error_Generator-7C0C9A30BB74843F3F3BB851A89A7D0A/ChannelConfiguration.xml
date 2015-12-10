@@ -1,0 +1,16 @@
+<channel
+   name="UC - Error Generator"
+   guid="7C0C9A30BB74843F3F3BB851A89A7D0A"
+   description="Generate errors for UC - Script Generator."
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_channel>
+   </to_channel>
+   <from_mapper
+      guid="UC_-_Error_Generator-From-KFMD4nEczxyrVo"
+      commit_id="5fdef81e5d54ca0747761a7cdf4f9ae2f155fb28"
+      commit_comment="Import from v5."
+      poll_time="10000">
+   </from_mapper>
+</channel>

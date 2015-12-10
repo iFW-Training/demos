@@ -1,0 +1,16 @@
+<channel
+   name="UC - Log Search"
+   guid="A21A75C0F342733134C0D7958AA2CF80"
+   description="Brian Paquette from Botsford Hospital has always wanted an easy way to query the logs for specific information in a specific field of a specific segment. I&apos;m 100% positive this can be done with regular expressions, but building custom, &quot;complex&quot; regexs is not in Brian&apos;s wheelhouse; nor mine ... &#xD;&#xA;&#xD;&#xA;So, inspired by Bret&apos;s presentation, we started hacking this together in my room. It&apos;s still rough, but so far it seems to work. Brain&apos;s going to help me test it out and I&apos;ll tweak as needed. (I suspect it won&apos;t work for repeating segments just yet...)"
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_channel>
+   </to_channel>
+   <from_http
+      type="mapper"
+      guid="UC_-_Log_Search-FromHTTP-EeyxqNdkT9Ie65"
+      commit_id="3bdd1b9d6669bbc70ab4d9203353ac12ad090f37"
+      commit_comment="Import from v5."
+      mapper_url_path="logs"/>
+</channel>
