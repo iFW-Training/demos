@@ -1,0 +1,24 @@
+<channel
+   name="California Immunization Reg"
+   guid="64A5C62BD0AECAC5A8C5966D78234A98"
+   description="This example channel shows you how you can do the SOAP call required for the CAIR - California Immunization Registry Interface.&#xD;&#xA;&#xD;&#xA;For more information, see:&#xD;&#xA;&#xD;&#xA;http://help.interfaceware.com/kb/connecting-with-cair"
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="California_Immunization_Reg-To-5ldApUyx3bGppp"
+      commit_id="6abd71ca30197c7ef056be394deed33e8a903cca"
+      commit_comment="Import.">
+      <dequeue_list>
+         <dequeue
+            source_guid="00000000000000000000000000000000"
+            dequeue_guid="DBA4AAC68EAD1EC8C3EB2FC2ACFD5396"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_mapper
+      guid="California_Immunization_Reg-From-dhBUPhSVpMpgyX"
+      commit_id="9884999af46b7980bfa199e053fe1173288af035"
+      commit_comment="Import."
+      poll_time="10000">
+   </from_mapper>
+</channel>

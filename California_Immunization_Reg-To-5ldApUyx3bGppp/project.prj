@@ -1,0 +1,15 @@
+{
+    "LocalDependencies": [],
+    "LuaDependencies": [
+        "node"
+    ],
+    "OtherDependencies": [
+        "cair/vxu.vmd"
+    ],
+    "timestamp": "1449757902",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}
