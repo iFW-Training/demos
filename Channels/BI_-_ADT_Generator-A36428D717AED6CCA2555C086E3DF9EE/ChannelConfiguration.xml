@@ -1,0 +1,25 @@
+<channel
+   name="BI - ADT Generator"
+   guid="A36428D717AED6CCA2555C086E3DF9EE"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_channel>
+   </to_channel>
+   <from_mapper
+      guid="BI_-_ADT_Generator-From-dTlsVBRdHhhXMC"
+      commit_id="f46ad107c9843e8b5c6e9943b8cad5ee089a3e33"
+      commit_comment="overwrite ran.lua"
+      poll_time="5000">
+   </from_mapper>
+   <message_filter
+      filter_after_logging="false"
+      log_pre_post_filter_message="true"
+      filter_vmd_path=""
+      transformation_mode="0"
+      scripted_transformation_configuration_name="default"
+      error_handling="0"
+      use_translator_filter="true">
+   </message_filter>
+</channel>

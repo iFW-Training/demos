@@ -1,0 +1,25 @@
+<channel
+   name="BI - Real Time Dashboard"
+   guid="2881468D757106A2B47BAA212FD94429"
+   description="This application queries Iguana&apos;s logs, collates data and pushes results to Ducksboard, a web-based BI visualization tool."
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_channel>
+   </to_channel>
+   <from_mapper
+      guid="BI_-_Real_Time_Dashboard-From-2AnGaDQfOiTcac"
+      commit_id="59007c9ba866b20e991bc04f20fc7f82f1d613c2"
+      commit_comment="Update Filter"
+      poll_time="10000">
+   </from_mapper>
+   <message_filter
+      filter_after_logging="false"
+      log_pre_post_filter_message="true"
+      filter_vmd_path=""
+      transformation_mode="0"
+      scripted_transformation_configuration_name="default"
+      error_handling="0"
+      use_translator_filter="true">
+   </message_filter>
+</channel>
